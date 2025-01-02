@@ -6,7 +6,7 @@ This project analyzes customer behavior and predicts campaign responses using a 
 
 ## **Project Structure**
 The repository contains the following files:
-- **`Sales_SQLQuery1.sql`**: Contains all SQL queries used for data exploration and analysis.
+- **`SQLQuery.sql`**: Contains all SQL queries used for data exploration and analysis.
 - **`Cleaned Dataset`**: The dataset after performing data cleaning and feature engineering.
 - **`Original Dataset`**: The unaltered dataset sourced from Kaggle.
 - **`Jupyter Notebook`**: Python scripts for data cleaning, feature engineering, and machine learning.
