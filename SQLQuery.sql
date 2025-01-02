@@ -229,7 +229,7 @@ ORDER BY response_rate DESC;
 	Select count(*) as customers from marketing_campaign
 	where num_of_web_visitsmonth >10 and num_of_web__purchase =0;
 
---Are there any significant differences in total spending between customers who filed complaints and those who didn’t?
+--Are there any significant differences in total spending between customers who filed complaints and those who didnÂ’t?
   with t_one as(select sum(total_amount_spent) as yes_complain
   from marketing_campaign where complain = 1),
 
@@ -249,7 +249,7 @@ ORDER BY response_rate DESC;
 	order by education,positive_customers DESC;
 
 
----What is the total income of customers who responded positively compared to those who didn’t?
+---What is the total income of customers who responded positively compared to those who didnÂ’t?
 	with oneone as 
 	(select round(sum(income),2) as total_positive_response_income
 	from marketing_campaign
